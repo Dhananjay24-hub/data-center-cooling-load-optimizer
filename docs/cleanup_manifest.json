@@ -1,0 +1,2442 @@
+{
+  "generated_environment_cache_files": 14696,
+  "generated_environment_cache_bytes": 486736276,
+  "files": [
+    {
+      "source": ".gitignore",
+      "bytes": 85,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Replaced with current GitHub setup and project documentation"
+    },
+    {
+      "source": "AUDIT_REPORT.md",
+      "bytes": 9749,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Historical report/export/manifest; obsolete paths or duplicate documentation, retained in original project"
+    },
+    {
+      "source": "config.py",
+      "bytes": 4134,
+      "destination": "ml/config.py",
+      "disposition": "moved",
+      "reason": "Required active source/data/model/test"
+    },
+    {
+      "source": "COVERAGE_UPGRADE_REPORT.md",
+      "bytes": 4927,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Historical report/export/manifest; obsolete paths or duplicate documentation, retained in original project"
+    },
+    {
+      "source": "create_pdf.py",
+      "bytes": 332,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Standalone report conversion utility; unused by application and ML pipeline"
+    },
+    {
+      "source": "Data_Center_Cooling_Load_Optimizer_Report.pdf",
+      "bytes": 2373425,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Historical report/export/manifest; obsolete paths or duplicate documentation, retained in original project"
+    },
+    {
+      "source": "FILE_MANIFEST.json",
+      "bytes": 34140,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Historical report/export/manifest; obsolete paths or duplicate documentation, retained in original project"
+    },
+    {
+      "source": "prepare_dataset.py",
+      "bytes": 1695,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Old entry point or duplicate pipeline consolidated into main.py and organized ml modules"
+    },
+    {
+      "source": "Project_Explanation.md",
+      "bytes": 4493,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Historical report/export/manifest; obsolete paths or duplicate documentation, retained in original project"
+    },
+    {
+      "source": "Project_Explanation.pdf",
+      "bytes": 5417,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Historical report/export/manifest; obsolete paths or duplicate documentation, retained in original project"
+    },
+    {
+      "source": "README.md",
+      "bytes": 11641,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Replaced with current GitHub setup and project documentation"
+    },
+    {
+      "source": "RECOMMENDATION_FIX_REPORT.md",
+      "bytes": 5336,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Historical report/export/manifest; obsolete paths or duplicate documentation, retained in original project"
+    },
+    {
+      "source": "requirements.txt",
+      "bytes": 295,
+      "destination": "requirements.txt",
+      "disposition": "moved",
+      "reason": "Required active source/data/model/test"
+    },
+    {
+      "source": "run_coverage_training.py",
+      "bytes": 4263,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Old entry point or duplicate pipeline consolidated into main.py and organized ml modules"
+    },
+    {
+      "source": "run_dashboard.py",
+      "bytes": 699,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Old entry point or duplicate pipeline consolidated into main.py and organized ml modules"
+    },
+    {
+      "source": "run_power_training.py",
+      "bytes": 1662,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Old entry point or duplicate pipeline consolidated into main.py and organized ml modules"
+    },
+    {
+      "source": "run_training.py",
+      "bytes": 1987,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Old entry point or duplicate pipeline consolidated into main.py and organized ml modules"
+    },
+    {
+      "source": "start_dashboard.cmd",
+      "bytes": 418,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Replaced by portable main.py entry point"
+    },
+    {
+      "source": "Technical_Report.md",
+      "bytes": 5095,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Historical report/export/manifest; obsolete paths or duplicate documentation, retained in original project"
+    },
+    {
+      "source": "Technical_Report.pdf",
+      "bytes": 8863,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Historical report/export/manifest; obsolete paths or duplicate documentation, retained in original project"
+    },
+    {
+      "source": "verify_research.py",
+      "bytes": 1340,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Old entry point or duplicate pipeline consolidated into main.py and organized ml modules"
+    },
+    {
+      "source": "ablation/generate_reports.py",
+      "bytes": 3255,
+      "destination": "ml/evaluation/ablation/generate_reports.py",
+      "disposition": "moved",
+      "reason": "Required active source/data/model/test"
+    },
+    {
+      "source": "ablation/run_ablation.py",
+      "bytes": 5609,
+      "destination": "ml/evaluation/ablation/run_ablation.py",
+      "disposition": "moved",
+      "reason": "Required active source/data/model/test"
+    },
+    {
+      "source": "ablation/run_algorithm_comparison.py",
+      "bytes": 4685,
+      "destination": "ml/evaluation/ablation/run_algorithm_comparison.py",
+      "disposition": "moved",
+      "reason": "Required active source/data/model/test"
+    },
+    {
+      "source": "ablation/run_robustness.py",
+      "bytes": 4995,
+      "destination": "ml/evaluation/ablation/run_robustness.py",
+      "disposition": "moved",
+      "reason": "Required active source/data/model/test"
+    },
+    {
+      "source": "dashboard/app.py",
+      "bytes": 8151,
+      "destination": "api/app.py",
+      "disposition": "moved",
+      "reason": "Required active source/data/model/test"
+    },
+    {
+      "source": "dashboard/service.py",
+      "bytes": 20319,
+      "destination": "api/service.py",
+      "disposition": "moved",
+      "reason": "Required active source/data/model/test"
+    },
+    {
+      "source": "dashboard/__init__.py",
+      "bytes": 2,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Package renamed to api"
+    },
+    {
+      "source": "data/correction_log.json",
+      "bytes": 426,
+      "destination": "datasets/correction_log.json",
+      "disposition": "moved",
+      "reason": "Required active source/data/model/test"
+    },
+    {
+      "source": "data/optimization_reference.csv",
+      "bytes": 910239,
+      "destination": "datasets/raw/optimization_reference.csv",
+      "disposition": "moved",
+      "reason": "Required active source/data/model/test"
+    },
+    {
+      "source": "data/research_ready_dataset.csv",
+      "bytes": 4283772,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Duplicate processed full dataset; rebuild in memory from raw source for validation"
+    },
+    {
+      "source": "data/test.csv",
+      "bytes": 651707,
+      "destination": "datasets/processed/test.csv",
+      "disposition": "moved",
+      "reason": "Required active source/data/model/test"
+    },
+    {
+      "source": "data/train.csv",
+      "bytes": 2996002,
+      "destination": "datasets/processed/train.csv",
+      "disposition": "moved",
+      "reason": "Required active source/data/model/test"
+    },
+    {
+      "source": "data/validation.csv",
+      "bytes": 637891,
+      "destination": "datasets/processed/validation.csv",
+      "disposition": "moved",
+      "reason": "Required active source/data/model/test"
+    },
+    {
+      "source": "models/cooling_power_model.joblib",
+      "bytes": 62620755,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Unselected/obsolete fitted model or metadata; exact training recipes retained in training_config.json"
+    },
+    {
+      "source": "models/dummy_cooling_load_kw.joblib",
+      "bytes": 7146,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Unselected/obsolete fitted model or metadata; exact training recipes retained in training_config.json"
+    },
+    {
+      "source": "models/dummy_cooling_load_kw_metadata.json",
+      "bytes": 1154,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Unselected/obsolete fitted model or metadata; exact training recipes retained in training_config.json"
+    },
+    {
+      "source": "models/dummy_cooling_power_kw.joblib",
+      "bytes": 7146,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Unselected/obsolete fitted model or metadata; exact training recipes retained in training_config.json"
+    },
+    {
+      "source": "models/dummy_hotspot_temperature_c.joblib",
+      "bytes": 7146,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Unselected/obsolete fitted model or metadata; exact training recipes retained in training_config.json"
+    },
+    {
+      "source": "models/dummy_hotspot_temperature_c_metadata.json",
+      "bytes": 1160,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Unselected/obsolete fitted model or metadata; exact training recipes retained in training_config.json"
+    },
+    {
+      "source": "models/dummy_server_inlet_temperature_c.joblib",
+      "bytes": 7146,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Unselected/obsolete fitted model or metadata; exact training recipes retained in training_config.json"
+    },
+    {
+      "source": "models/dummy_server_inlet_temperature_c_metadata.json",
+      "bytes": 1165,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Unselected/obsolete fitted model or metadata; exact training recipes retained in training_config.json"
+    },
+    {
+      "source": "models/lightgbm_cooling_load_kw.joblib",
+      "bytes": 144729,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Unselected/obsolete fitted model or metadata; exact training recipes retained in training_config.json"
+    },
+    {
+      "source": "models/lightgbm_cooling_load_kw_metadata.json",
+      "bytes": 1234,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Unselected/obsolete fitted model or metadata; exact training recipes retained in training_config.json"
+    },
+    {
+      "source": "models/lightgbm_cooling_power_kw.joblib",
+      "bytes": 131646,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Unselected/obsolete fitted model or metadata; exact training recipes retained in training_config.json"
+    },
+    {
+      "source": "models/lightgbm_hotspot_temperature_c.joblib",
+      "bytes": 213036,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Unselected/obsolete fitted model or metadata; exact training recipes retained in training_config.json"
+    },
+    {
+      "source": "models/lightgbm_hotspot_temperature_c_metadata.json",
+      "bytes": 1241,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Unselected/obsolete fitted model or metadata; exact training recipes retained in training_config.json"
+    },
+    {
+      "source": "models/lightgbm_server_inlet_temperature_c.joblib",
+      "bytes": 202456,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Unselected/obsolete fitted model or metadata; exact training recipes retained in training_config.json"
+    },
+    {
+      "source": "models/lightgbm_server_inlet_temperature_c_metadata.json",
+      "bytes": 1246,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Unselected/obsolete fitted model or metadata; exact training recipes retained in training_config.json"
+    },
+    {
+      "source": "models/linearregression_cooling_load_kw.joblib",
+      "bytes": 8114,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Unselected/obsolete fitted model or metadata; exact training recipes retained in training_config.json"
+    },
+    {
+      "source": "models/linearregression_cooling_load_kw_metadata.json",
+      "bytes": 1165,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Unselected/obsolete fitted model or metadata; exact training recipes retained in training_config.json"
+    },
+    {
+      "source": "models/linearregression_cooling_power_kw.joblib",
+      "bytes": 8114,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Unselected/obsolete fitted model or metadata; exact training recipes retained in training_config.json"
+    },
+    {
+      "source": "models/linearregression_hotspot_temperature_c.joblib",
+      "bytes": 8114,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Unselected/obsolete fitted model or metadata; exact training recipes retained in training_config.json"
+    },
+    {
+      "source": "models/linearregression_hotspot_temperature_c_metadata.json",
+      "bytes": 1171,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Unselected/obsolete fitted model or metadata; exact training recipes retained in training_config.json"
+    },
+    {
+      "source": "models/linearregression_server_inlet_temperature_c.joblib",
+      "bytes": 8114,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Unselected/obsolete fitted model or metadata; exact training recipes retained in training_config.json"
+    },
+    {
+      "source": "models/linearregression_server_inlet_temperature_c_metadata.json",
+      "bytes": 1176,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Unselected/obsolete fitted model or metadata; exact training recipes retained in training_config.json"
+    },
+    {
+      "source": "models/model_profile.json",
+      "bytes": 1331,
+      "destination": "ml/models/artifacts/model_profile.json",
+      "disposition": "moved",
+      "reason": "Required active source/data/model/test"
+    },
+    {
+      "source": "models/randomforest_cooling_load_kw.joblib",
+      "bytes": 63195603,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Unselected/obsolete fitted model or metadata; exact training recipes retained in training_config.json"
+    },
+    {
+      "source": "models/randomforest_cooling_load_kw_metadata.json",
+      "bytes": 1222,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Unselected/obsolete fitted model or metadata; exact training recipes retained in training_config.json"
+    },
+    {
+      "source": "models/randomforest_cooling_power_kw.joblib",
+      "bytes": 62620755,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Unselected/obsolete fitted model or metadata; exact training recipes retained in training_config.json"
+    },
+    {
+      "source": "models/randomforest_hotspot_temperature_c.joblib",
+      "bytes": 62834739,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Unselected/obsolete fitted model or metadata; exact training recipes retained in training_config.json"
+    },
+    {
+      "source": "models/randomforest_hotspot_temperature_c_metadata.json",
+      "bytes": 1230,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Unselected/obsolete fitted model or metadata; exact training recipes retained in training_config.json"
+    },
+    {
+      "source": "models/randomforest_server_inlet_temperature_c.joblib",
+      "bytes": 4252451,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Unselected/obsolete fitted model or metadata; exact training recipes retained in training_config.json"
+    },
+    {
+      "source": "models/randomforest_server_inlet_temperature_c_metadata.json",
+      "bytes": 1232,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Unselected/obsolete fitted model or metadata; exact training recipes retained in training_config.json"
+    },
+    {
+      "source": "models/selected_models.json",
+      "bytes": 260,
+      "destination": "ml/models/artifacts/selected_models.json",
+      "disposition": "moved",
+      "reason": "Required active source/data/model/test"
+    },
+    {
+      "source": "models/xgboost_cooling_load_kw.joblib",
+      "bytes": 281560,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Unselected/obsolete fitted model or metadata; exact training recipes retained in training_config.json"
+    },
+    {
+      "source": "models/xgboost_cooling_load_kw_metadata.json",
+      "bytes": 1214,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Unselected/obsolete fitted model or metadata; exact training recipes retained in training_config.json"
+    },
+    {
+      "source": "models/xgboost_cooling_power_kw.joblib",
+      "bytes": 152352,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Unselected/obsolete fitted model or metadata; exact training recipes retained in training_config.json"
+    },
+    {
+      "source": "models/xgboost_hotspot_temperature_c.joblib",
+      "bytes": 273466,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Unselected/obsolete fitted model or metadata; exact training recipes retained in training_config.json"
+    },
+    {
+      "source": "models/xgboost_hotspot_temperature_c_metadata.json",
+      "bytes": 1220,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Unselected/obsolete fitted model or metadata; exact training recipes retained in training_config.json"
+    },
+    {
+      "source": "models/xgboost_server_inlet_temperature_c.joblib",
+      "bytes": 274556,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Unselected/obsolete fitted model or metadata; exact training recipes retained in training_config.json"
+    },
+    {
+      "source": "models/xgboost_server_inlet_temperature_c_metadata.json",
+      "bytes": 1225,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Unselected/obsolete fitted model or metadata; exact training recipes retained in training_config.json"
+    },
+    {
+      "source": "optimization/baseline.py",
+      "bytes": 766,
+      "destination": "ml/optimization/baseline.py",
+      "disposition": "moved",
+      "reason": "Required active source/data/model/test"
+    },
+    {
+      "source": "optimization/config.yaml",
+      "bytes": 906,
+      "destination": "ml/optimization/config.yaml",
+      "disposition": "moved",
+      "reason": "Required active source/data/model/test"
+    },
+    {
+      "source": "optimization/constraints.md",
+      "bytes": 884,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Fragmented/stale documentation consolidated into README and docs/MODELING.md"
+    },
+    {
+      "source": "optimization/constraints.py",
+      "bytes": 1498,
+      "destination": "ml/optimization/constraints.py",
+      "disposition": "moved",
+      "reason": "Required active source/data/model/test"
+    },
+    {
+      "source": "optimization/decision_variables.md",
+      "bytes": 588,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Fragmented/stale documentation consolidated into README and docs/MODELING.md"
+    },
+    {
+      "source": "optimization/de_optimizer.py",
+      "bytes": 227,
+      "destination": "ml/optimization/de_optimizer.py",
+      "disposition": "moved",
+      "reason": "Required active source/data/model/test"
+    },
+    {
+      "source": "optimization/energy_objective.md",
+      "bytes": 545,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Fragmented/stale documentation consolidated into README and docs/MODELING.md"
+    },
+    {
+      "source": "optimization/evaluation.py",
+      "bytes": 4316,
+      "destination": "ml/evaluation/optimization.py",
+      "disposition": "moved",
+      "reason": "Required active source/data/model/test"
+    },
+    {
+      "source": "optimization/fitness.py",
+      "bytes": 4442,
+      "destination": "ml/optimization/fitness.py",
+      "disposition": "moved",
+      "reason": "Required active source/data/model/test"
+    },
+    {
+      "source": "optimization/ga_optimizer.py",
+      "bytes": 227,
+      "destination": "ml/optimization/ga_optimizer.py",
+      "disposition": "moved",
+      "reason": "Required active source/data/model/test"
+    },
+    {
+      "source": "optimization/ood_detector.py",
+      "bytes": 4944,
+      "destination": "ml/optimization/ood_detector.py",
+      "disposition": "moved",
+      "reason": "Required active source/data/model/test"
+    },
+    {
+      "source": "optimization/ood_protection.md",
+      "bytes": 930,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Fragmented/stale documentation consolidated into README and docs/MODELING.md"
+    },
+    {
+      "source": "optimization/optimization_formulation.md",
+      "bytes": 782,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Fragmented/stale documentation consolidated into README and docs/MODELING.md"
+    },
+    {
+      "source": "optimization/README.md",
+      "bytes": 1351,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Fragmented/stale documentation consolidated into README and docs/MODELING.md"
+    },
+    {
+      "source": "optimization/runner.py",
+      "bytes": 4309,
+      "destination": "ml/optimization/runner.py",
+      "disposition": "moved",
+      "reason": "Required active source/data/model/test"
+    },
+    {
+      "source": "optimization/run_optimization.py",
+      "bytes": 4781,
+      "destination": "ml/optimization/run_optimization.py",
+      "disposition": "moved",
+      "reason": "Required active source/data/model/test"
+    },
+    {
+      "source": "optimization/scenarios.py",
+      "bytes": 2477,
+      "destination": "ml/optimization/scenarios.py",
+      "disposition": "moved",
+      "reason": "Required active source/data/model/test"
+    },
+    {
+      "source": "optimization/__init__.py",
+      "bytes": 22,
+      "destination": "ml/optimization/__init__.py",
+      "disposition": "moved",
+      "reason": "Required active source/data/model/test"
+    },
+    {
+      "source": "results/cooling_power_feature_list.txt",
+      "bytes": 1921,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/cooling_power_leakage_audit.txt",
+      "bytes": 1508,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/cooling_power_model_selection_report.txt",
+      "bytes": 1284,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/data_audit.txt",
+      "bytes": 1691,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/data_quality.json",
+      "bytes": 1448,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/leakage_audit_report.txt",
+      "bytes": 7195,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/model_selection_report.txt",
+      "bytes": 522,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "runtime/operator.sqlite3",
+      "bytes": 86016,
+      "destination": "outputs/runtime/operator.sqlite3",
+      "disposition": "moved",
+      "reason": "Required active source/data/model/test"
+    },
+    {
+      "source": "runtime/recommendation_fix_server_stderr.log",
+      "bytes": 8663,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Old logs and code backups; live operator database retained separately"
+    },
+    {
+      "source": "runtime/recommendation_fix_server_stdout.log",
+      "bytes": 101,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Old logs and code backups; live operator database retained separately"
+    },
+    {
+      "source": "runtime/seasonal_server_stderr.log",
+      "bytes": 4512,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Old logs and code backups; live operator database retained separately"
+    },
+    {
+      "source": "runtime/seasonal_server_stdout.log",
+      "bytes": 101,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Old logs and code backups; live operator database retained separately"
+    },
+    {
+      "source": "runtime/wording_server_stderr.log",
+      "bytes": 5783,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Old logs and code backups; live operator database retained separately"
+    },
+    {
+      "source": "runtime/wording_server_stdout.log",
+      "bytes": 101,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Old logs and code backups; live operator database retained separately"
+    },
+    {
+      "source": "src/audit_cooling_power.py",
+      "bytes": 3869,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Old entry point or duplicate pipeline consolidated into main.py and organized ml modules"
+    },
+    {
+      "source": "src/audit_leakage.py",
+      "bytes": 3688,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Old entry point or duplicate pipeline consolidated into main.py and organized ml modules"
+    },
+    {
+      "source": "src/data_audit.py",
+      "bytes": 3180,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Old entry point or duplicate pipeline consolidated into main.py and organized ml modules"
+    },
+    {
+      "source": "src/data_integrity.py",
+      "bytes": 5717,
+      "destination": "ml/preprocessing/validate.py",
+      "disposition": "moved",
+      "reason": "Required active source/data/model/test"
+    },
+    {
+      "source": "src/eda.py",
+      "bytes": 6052,
+      "destination": "ml/evaluation/eda.py",
+      "disposition": "moved",
+      "reason": "Required active source/data/model/test"
+    },
+    {
+      "source": "src/evaluate_cooling_power.py",
+      "bytes": 8367,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Old entry point or duplicate pipeline consolidated into main.py and organized ml modules"
+    },
+    {
+      "source": "src/evaluate_models.py",
+      "bytes": 8121,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Old entry point or duplicate pipeline consolidated into main.py and organized ml modules"
+    },
+    {
+      "source": "src/model_profile.py",
+      "bytes": 3142,
+      "destination": "ml/models/profile.py",
+      "disposition": "moved",
+      "reason": "Required active source/data/model/test"
+    },
+    {
+      "source": "src/preprocessing.py",
+      "bytes": 2631,
+      "destination": "ml/preprocessing/pipeline.py",
+      "disposition": "moved",
+      "reason": "Required active source/data/model/test"
+    },
+    {
+      "source": "src/train_cooling_power.py",
+      "bytes": 3362,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Old entry point or duplicate pipeline consolidated into main.py and organized ml modules"
+    },
+    {
+      "source": "src/train_models.py",
+      "bytes": 5997,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Old entry point or duplicate pipeline consolidated into main.py and organized ml modules"
+    },
+    {
+      "source": "src/utils.py",
+      "bytes": 2390,
+      "destination": "ml/utils.py",
+      "disposition": "moved",
+      "reason": "Required active source/data/model/test"
+    },
+    {
+      "source": "tests/test_http.py",
+      "bytes": 3867,
+      "destination": "tests/test_http.py",
+      "disposition": "moved",
+      "reason": "Required active source/data/model/test"
+    },
+    {
+      "source": "tests/test_recommendation_support.py",
+      "bytes": 8614,
+      "destination": "tests/test_recommendation_support.py",
+      "disposition": "moved",
+      "reason": "Required active source/data/model/test"
+    },
+    {
+      "source": "tests/test_system.py",
+      "bytes": 17818,
+      "destination": "tests/test_system.py",
+      "disposition": "moved",
+      "reason": "Required active source/data/model/test"
+    },
+    {
+      "source": "tests/test_training.py",
+      "bytes": 3133,
+      "destination": "tests/test_training.py",
+      "disposition": "moved",
+      "reason": "Required active source/data/model/test"
+    },
+    {
+      "source": "tests/__init__.py",
+      "bytes": 2,
+      "destination": "tests/__init__.py",
+      "disposition": "moved",
+      "reason": "Required active source/data/model/test"
+    },
+    {
+      "source": "runtime/code_backups/recommendation_fix_20260918_184350/README.md",
+      "bytes": 8100,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Old logs and code backups; live operator database retained separately"
+    },
+    {
+      "source": "runtime/code_backups/seasonal_upgrade_20260918_190210/operator.sqlite3",
+      "bytes": 69632,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Old logs and code backups; live operator database retained separately"
+    },
+    {
+      "source": "runtime/code_backups/seasonal_upgrade_20260918_190210/README.md",
+      "bytes": 9648,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Old logs and code backups; live operator database retained separately"
+    },
+    {
+      "source": "runtime/code_backups/seasonal_upgrade_20260918_190210/run_power_training.py",
+      "bytes": 1174,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Old logs and code backups; live operator database retained separately"
+    },
+    {
+      "source": "runtime/code_backups/seasonal_upgrade_20260918_190210/run_training.py",
+      "bytes": 1489,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Old logs and code backups; live operator database retained separately"
+    },
+    {
+      "source": "runtime/code_backups/seasonal_upgrade_20260918_190210/verify_research.py",
+      "bytes": 890,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Old logs and code backups; live operator database retained separately"
+    },
+    {
+      "source": "runtime/code_backups/wording_20260918_191219/dashboard/static/app.js",
+      "bytes": 26244,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Old logs and code backups; live operator database retained separately"
+    },
+    {
+      "source": "runtime/code_backups/wording_20260918_191219/dashboard/templates/index.html",
+      "bytes": 7234,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Old logs and code backups; live operator database retained separately"
+    },
+    {
+      "source": "runtime/code_backups/seasonal_upgrade_20260918_190210/dashboard/app.py",
+      "bytes": 8086,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Old logs and code backups; live operator database retained separately"
+    },
+    {
+      "source": "runtime/code_backups/seasonal_upgrade_20260918_190210/dashboard/service.py",
+      "bytes": 19440,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Old logs and code backups; live operator database retained separately"
+    },
+    {
+      "source": "runtime/code_backups/seasonal_upgrade_20260918_190210/models/selected_models.json",
+      "bytes": 203,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Old logs and code backups; live operator database retained separately"
+    },
+    {
+      "source": "runtime/code_backups/seasonal_upgrade_20260918_190210/optimization/fitness.py",
+      "bytes": 4305,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Old logs and code backups; live operator database retained separately"
+    },
+    {
+      "source": "runtime/code_backups/seasonal_upgrade_20260918_190210/optimization/ood_detector.py",
+      "bytes": 4913,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Old logs and code backups; live operator database retained separately"
+    },
+    {
+      "source": "runtime/code_backups/seasonal_upgrade_20260918_190210/tests/test_recommendation_support.py",
+      "bytes": 6049,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Old logs and code backups; live operator database retained separately"
+    },
+    {
+      "source": "runtime/code_backups/seasonal_upgrade_20260918_190210/dashboard/static/app.js",
+      "bytes": 26073,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Old logs and code backups; live operator database retained separately"
+    },
+    {
+      "source": "runtime/code_backups/seasonal_upgrade_20260918_190210/dashboard/static/openapi.json",
+      "bytes": 67518,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Old logs and code backups; live operator database retained separately"
+    },
+    {
+      "source": "runtime/code_backups/recommendation_fix_20260918_184350/dashboard/app.py",
+      "bytes": 7539,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Old logs and code backups; live operator database retained separately"
+    },
+    {
+      "source": "runtime/code_backups/recommendation_fix_20260918_184350/dashboard/service.py",
+      "bytes": 16440,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Old logs and code backups; live operator database retained separately"
+    },
+    {
+      "source": "runtime/code_backups/recommendation_fix_20260918_184350/optimization/ood_detector.py",
+      "bytes": 2306,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Old logs and code backups; live operator database retained separately"
+    },
+    {
+      "source": "runtime/code_backups/recommendation_fix_20260918_184350/optimization/runner.py",
+      "bytes": 3429,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Old logs and code backups; live operator database retained separately"
+    },
+    {
+      "source": "runtime/code_backups/recommendation_fix_20260918_184350/results/verification/http_endpoint_results.json",
+      "bytes": 3171,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Old logs and code backups; live operator database retained separately"
+    },
+    {
+      "source": "runtime/code_backups/recommendation_fix_20260918_184350/dashboard/static/app.js",
+      "bytes": 23624,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Old logs and code backups; live operator database retained separately"
+    },
+    {
+      "source": "runtime/code_backups/recommendation_fix_20260918_184350/dashboard/static/openapi.json",
+      "bytes": 66723,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Old logs and code backups; live operator database retained separately"
+    },
+    {
+      "source": "runtime/code_backups/recommendation_fix_20260918_184350/dashboard/static/styles.css",
+      "bytes": 15071,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Old logs and code backups; live operator database retained separately"
+    },
+    {
+      "source": "runtime/code_backups/recommendation_fix_20260918_184350/dashboard/templates/index.html",
+      "bytes": 6975,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Old logs and code backups; live operator database retained separately"
+    },
+    {
+      "source": "results/ablation/ablation_report.txt",
+      "bytes": 935,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/ablation/ablation_results.csv",
+      "bytes": 4151,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/ablation/ga_vs_de_comparison.csv",
+      "bytes": 1664,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/ablation/robustness_report.txt",
+      "bytes": 1232,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/ablation/robustness_results.csv",
+      "bytes": 6870,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/ablation/scenario_robustness.csv",
+      "bytes": 1448,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/ablation/summary_statistics.csv",
+      "bytes": 305,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/cooling_power_feature_list.txt",
+      "bytes": 1921,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/cooling_power_leakage_audit.txt",
+      "bytes": 1508,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/cooling_power_model_selection_report.txt",
+      "bytes": 1332,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/cooling_power_summary_report.md",
+      "bytes": 3267,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/data_audit.txt",
+      "bytes": 1696,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/final_summary.txt",
+      "bytes": 1742,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/leakage_audit_report.txt",
+      "bytes": 7195,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/model_selection_report.txt",
+      "bytes": 522,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/optimization/de_results.csv",
+      "bytes": 1956,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/optimization/ga_results.csv",
+      "bytes": 1959,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/optimization/scenario_results.csv",
+      "bytes": 734,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/tables/cooling_power_feature_importance.csv",
+      "bytes": 826,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/tables/cooling_power_test_model_comparison.csv",
+      "bytes": 138,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/tables/cooling_power_validation_model_comparison.csv",
+      "bytes": 463,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/tables/dataset_statistics.csv",
+      "bytes": 4687,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/tables/feature_importance.csv",
+      "bytes": 29320,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/tables/final_feature_lists.csv",
+      "bytes": 3945,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/tables/missing_values.csv",
+      "bytes": 42,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/tables/test_model_comparison.csv",
+      "bytes": 1690,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/tables/validation_model_comparison.csv",
+      "bytes": 1691,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/verification/additional_research.log",
+      "bytes": 6465,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/verification/automated_tests.log",
+      "bytes": 17895,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/verification/current_recommendation_audit.json",
+      "bytes": 5101,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/verification/http_endpoint_results.json",
+      "bytes": 3171,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/verification/model_and_region_audit.json",
+      "bytes": 13505,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/verification/operator_scenarios.csv",
+      "bytes": 778,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/verification/recommendation_fix_tests.log",
+      "bytes": 18649,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/verification/research_suite.log",
+      "bytes": 6276,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/verification/seasonal_coverage_audit.json",
+      "bytes": 33841,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/verification/seasonal_tests.log",
+      "bytes": 19325,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/verification/seasonal_training_report.json",
+      "bytes": 8796,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/verification/summary.json",
+      "bytes": 733,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/plots/cooling_power/actual_vs_predicted.png",
+      "bytes": 79989,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/plots/cooling_power/error_distribution.png",
+      "bytes": 36931,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/plots/cooling_power/feature_importance.png",
+      "bytes": 53806,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/plots/cooling_power/residuals.png",
+      "bytes": 101402,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/optimization/convergence/alternate_data_center_convergence.png",
+      "bytes": 80963,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/optimization/convergence/extreme_weather_convergence.png",
+      "bytes": 81590,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/optimization/convergence/high_workload_convergence.png",
+      "bytes": 91359,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/optimization/convergence/low_workload_convergence.png",
+      "bytes": 83017,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/optimization/convergence/medium_workload_convergence.png",
+      "bytes": 86929,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/optimization/convergence/skewed_workload_convergence.png",
+      "bytes": 78037,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/optimization/convergence/uniform_workload_convergence.png",
+      "bytes": 84206,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/optimization/plots/cooling_power_comparison.png",
+      "bytes": 74428,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/optimization/plots/energy_savings_comparison.png",
+      "bytes": 66219,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/optimization/plots/runtime_comparison.png",
+      "bytes": 61936,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/ablation/ablation_report.txt",
+      "bytes": 1694,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/ablation/ablation_results.csv",
+      "bytes": 3937,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/ablation/ga_vs_de_comparison.csv",
+      "bytes": 1523,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/ablation/robustness_report.txt",
+      "bytes": 698,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/ablation/robustness_results.csv",
+      "bytes": 5713,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/ablation/scenario_robustness.csv",
+      "bytes": 1332,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/ablation/summary_statistics.csv",
+      "bytes": 321,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/optimization/de_results.csv",
+      "bytes": 1879,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/optimization/ga_results.csv",
+      "bytes": 1903,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/optimization/scenario_results.csv",
+      "bytes": 1151,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/tables/best_hyperparameters.csv",
+      "bytes": 1254,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/tables/cooling_power_feature_importance.csv",
+      "bytes": 826,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/tables/cooling_power_test_model_comparison.csv",
+      "bytes": 138,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/tables/cooling_power_validation_model_comparison.csv",
+      "bytes": 463,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/tables/dataset_statistics.csv",
+      "bytes": 4638,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/tables/feature_importance.csv",
+      "bytes": 29320,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/tables/final_feature_lists.csv",
+      "bytes": 3945,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/tables/missing_values.csv",
+      "bytes": 42,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/tables/test_model_comparison.csv",
+      "bytes": 1690,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/tables/validation_model_comparison.csv",
+      "bytes": 1691,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/plots/cooling_power/actual_vs_predicted.png",
+      "bytes": 79989,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/plots/cooling_power/error_distribution.png",
+      "bytes": 36931,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/plots/cooling_power/feature_importance.png",
+      "bytes": 53764,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/plots/cooling_power/residuals.png",
+      "bytes": 101402,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/optimization/convergence/alternate_data_center_convergence.png",
+      "bytes": 65517,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/optimization/convergence/extreme_weather_convergence.png",
+      "bytes": 60465,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/optimization/convergence/high_workload_convergence.png",
+      "bytes": 56560,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/optimization/convergence/low_workload_convergence.png",
+      "bytes": 60951,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/optimization/convergence/medium_workload_convergence.png",
+      "bytes": 61682,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/optimization/convergence/skewed_workload_convergence.png",
+      "bytes": 62299,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/optimization/convergence/uniform_workload_convergence.png",
+      "bytes": 62305,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/optimization/plots/cooling_power_comparison.png",
+      "bytes": 75127,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/optimization/plots/energy_savings_comparison.png",
+      "bytes": 65708,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/optimization/plots/runtime_comparison.png",
+      "bytes": 61284,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/figures/eda/10_cooling_load_over_time.png",
+      "bytes": 358764,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/figures/eda/11_hotspot_temp_over_time.png",
+      "bytes": 412579,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/figures/eda/12_correlation_matrix.png",
+      "bytes": 551100,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/figures/eda/13_cooling_load_by_season.png",
+      "bytes": 86880,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/figures/eda/14_cooling_load_by_workload.png",
+      "bytes": 87542,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/figures/eda/1_cooling_load_dist.png",
+      "bytes": 142250,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/figures/eda/2_cooling_power_dist.png",
+      "bytes": 123760,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/figures/eda/3_server_inlet_temp_dist.png",
+      "bytes": 140753,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/figures/eda/4_hotspot_temp_dist.png",
+      "bytes": 135389,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/figures/eda/5_cpu_vs_cooling_load.png",
+      "bytes": 1527305,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/figures/eda/6_it_power_vs_cooling_load.png",
+      "bytes": 568359,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/figures/eda/7_outdoor_temp_vs_cooling_load.png",
+      "bytes": 1861097,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/figures/eda/8_airflow_vs_cooling_load.png",
+      "bytes": 1658194,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/figures/eda/9_supply_air_vs_cooling_load.png",
+      "bytes": 1602768,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/figures/feature_importance/lightgbm_cooling_load_kw_feature_importance.png",
+      "bytes": 167204,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/figures/feature_importance/lightgbm_hotspot_temperature_c_feature_importance.png",
+      "bytes": 159525,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/figures/feature_importance/lightgbm_server_inlet_temperature_c_feature_importance.png",
+      "bytes": 162190,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/figures/feature_importance/randomforest_cooling_load_kw_feature_importance.png",
+      "bytes": 160697,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/figures/feature_importance/randomforest_hotspot_temperature_c_feature_importance.png",
+      "bytes": 161696,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/figures/feature_importance/randomforest_server_inlet_temperature_c_feature_importance.png",
+      "bytes": 164256,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/figures/feature_importance/xgboost_cooling_load_kw_feature_importance.png",
+      "bytes": 165532,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/figures/feature_importance/xgboost_hotspot_temperature_c_feature_importance.png",
+      "bytes": 169049,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/figures/feature_importance/xgboost_server_inlet_temperature_c_feature_importance.png",
+      "bytes": 161149,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/figures/model_evaluation/lightgbm_cooling_load_kw_Test_actual_vs_pred.png",
+      "bytes": 267064,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/figures/model_evaluation/lightgbm_cooling_load_kw_Test_residuals.png",
+      "bytes": 109196,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/figures/model_evaluation/lightgbm_hotspot_temperature_c_Test_actual_vs_pred.png",
+      "bytes": 390429,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/figures/model_evaluation/lightgbm_hotspot_temperature_c_Test_residuals.png",
+      "bytes": 107600,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/figures/model_evaluation/lightgbm_server_inlet_temperature_c_Test_actual_vs_pred.png",
+      "bytes": 372676,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/figures/model_evaluation/lightgbm_server_inlet_temperature_c_Test_residuals.png",
+      "bytes": 112302,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/figures/model_evaluation/xgboost_cooling_load_kw_Test_actual_vs_pred.png",
+      "bytes": 265837,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/figures/model_evaluation/xgboost_cooling_load_kw_Test_residuals.png",
+      "bytes": 111274,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/ablation/plots/ablation_savings.png",
+      "bytes": 45325,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/ablation/plots/ablation_thermal_safety.png",
+      "bytes": 56441,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/ablation/plots/ga_vs_de_runtime.png",
+      "bytes": 38191,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/ablation/plots/ga_vs_de_savings.png",
+      "bytes": 39374,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/ablation/plots/robustness_boxplot.png",
+      "bytes": 48377,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/ablation/plots/scenario_savings.png",
+      "bytes": 48066,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/ablation/plots/convergence/Alternate_Data_Center_convergence.png",
+      "bytes": 28785,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/ablation/plots/convergence/Extreme_Weather_convergence.png",
+      "bytes": 26280,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/ablation/plots/convergence/High_Workload_convergence.png",
+      "bytes": 26290,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/ablation/plots/convergence/Low_Workload_convergence.png",
+      "bytes": 27037,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/ablation/plots/convergence/Medium_Workload_convergence.png",
+      "bytes": 26588,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/ablation/plots/convergence/Skewed_Workload_convergence.png",
+      "bytes": 27303,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/legacy/ablation/plots/convergence/Uniform_Workload_convergence.png",
+      "bytes": 25732,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/figures/eda/10_cooling_load_over_time.png",
+      "bytes": 358764,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/figures/eda/11_hotspot_temp_over_time.png",
+      "bytes": 412579,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/figures/eda/12_correlation_matrix.png",
+      "bytes": 551100,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/figures/eda/13_cooling_load_by_season.png",
+      "bytes": 86880,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/figures/eda/14_cooling_load_by_workload.png",
+      "bytes": 87542,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/figures/eda/1_cooling_load_dist.png",
+      "bytes": 142250,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/figures/eda/2_cooling_power_dist.png",
+      "bytes": 123760,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/figures/eda/3_server_inlet_temp_dist.png",
+      "bytes": 140753,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/figures/eda/4_hotspot_temp_dist.png",
+      "bytes": 135389,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/figures/eda/5_cpu_vs_cooling_load.png",
+      "bytes": 1527305,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/figures/eda/6_it_power_vs_cooling_load.png",
+      "bytes": 568359,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/figures/eda/7_outdoor_temp_vs_cooling_load.png",
+      "bytes": 1861097,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/figures/eda/8_airflow_vs_cooling_load.png",
+      "bytes": 1658194,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/figures/eda/9_supply_air_vs_cooling_load.png",
+      "bytes": 1602768,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/figures/feature_importance/lightgbm_cooling_load_kw_feature_importance.png",
+      "bytes": 167204,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/figures/feature_importance/lightgbm_hotspot_temperature_c_feature_importance.png",
+      "bytes": 159525,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/figures/feature_importance/lightgbm_server_inlet_temperature_c_feature_importance.png",
+      "bytes": 162190,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/figures/feature_importance/randomforest_cooling_load_kw_feature_importance.png",
+      "bytes": 160697,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/figures/feature_importance/randomforest_hotspot_temperature_c_feature_importance.png",
+      "bytes": 161696,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/figures/feature_importance/randomforest_server_inlet_temperature_c_feature_importance.png",
+      "bytes": 164256,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/figures/feature_importance/xgboost_cooling_load_kw_feature_importance.png",
+      "bytes": 165532,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/figures/feature_importance/xgboost_hotspot_temperature_c_feature_importance.png",
+      "bytes": 169049,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/figures/feature_importance/xgboost_server_inlet_temperature_c_feature_importance.png",
+      "bytes": 161149,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/figures/model_evaluation/lightgbm_hotspot_temperature_c_Test_actual_vs_pred.png",
+      "bytes": 390429,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/figures/model_evaluation/lightgbm_hotspot_temperature_c_Test_residuals.png",
+      "bytes": 107600,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/figures/model_evaluation/lightgbm_server_inlet_temperature_c_Test_actual_vs_pred.png",
+      "bytes": 372676,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/figures/model_evaluation/lightgbm_server_inlet_temperature_c_Test_residuals.png",
+      "bytes": 112302,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/figures/model_evaluation/xgboost_cooling_load_kw_Test_actual_vs_pred.png",
+      "bytes": 265837,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/figures/model_evaluation/xgboost_cooling_load_kw_Test_residuals.png",
+      "bytes": 111274,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/ablation/plots/ablation_savings.png",
+      "bytes": 45300,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/ablation/plots/ablation_thermal_safety.png",
+      "bytes": 58776,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/ablation/plots/ga_vs_de_runtime.png",
+      "bytes": 37366,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/ablation/plots/ga_vs_de_savings.png",
+      "bytes": 38941,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/ablation/plots/robustness_boxplot.png",
+      "bytes": 46746,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/ablation/plots/scenario_savings.png",
+      "bytes": 49056,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/ablation/plots/convergence/Alternate_Data_Center_convergence.png",
+      "bytes": 39397,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/ablation/plots/convergence/Extreme_Weather_convergence.png",
+      "bytes": 39647,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/ablation/plots/convergence/High_Workload_convergence.png",
+      "bytes": 43616,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/ablation/plots/convergence/Low_Workload_convergence.png",
+      "bytes": 39962,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/ablation/plots/convergence/Medium_Workload_convergence.png",
+      "bytes": 42115,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/ablation/plots/convergence/Skewed_Workload_convergence.png",
+      "bytes": 38727,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "results/ablation/plots/convergence/Uniform_Workload_convergence.png",
+      "bytes": 42050,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Generated or legacy reports/plots; regenerate from evaluation commands"
+    },
+    {
+      "source": "models/seasonal_v1/dummy_cooling_load_kw.joblib",
+      "bytes": 7162,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Unselected/obsolete fitted model or metadata; exact training recipes retained in training_config.json"
+    },
+    {
+      "source": "models/seasonal_v1/dummy_cooling_power_kw.joblib",
+      "bytes": 7162,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Unselected/obsolete fitted model or metadata; exact training recipes retained in training_config.json"
+    },
+    {
+      "source": "models/seasonal_v1/dummy_hotspot_temperature_c.joblib",
+      "bytes": 7162,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Unselected/obsolete fitted model or metadata; exact training recipes retained in training_config.json"
+    },
+    {
+      "source": "models/seasonal_v1/dummy_server_inlet_temperature_c.joblib",
+      "bytes": 7162,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Unselected/obsolete fitted model or metadata; exact training recipes retained in training_config.json"
+    },
+    {
+      "source": "models/seasonal_v1/lightgbm_cooling_load_kw.joblib",
+      "bytes": 146287,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Unselected/obsolete fitted model or metadata; exact training recipes retained in training_config.json"
+    },
+    {
+      "source": "models/seasonal_v1/lightgbm_cooling_power_kw.joblib",
+      "bytes": 134944,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Unselected/obsolete fitted model or metadata; exact training recipes retained in training_config.json"
+    },
+    {
+      "source": "models/seasonal_v1/lightgbm_hotspot_temperature_c.joblib",
+      "bytes": 206405,
+      "destination": "ml/models/artifacts/seasonal_v1/lightgbm_hotspot_temperature_c.joblib",
+      "disposition": "moved",
+      "reason": "Required active source/data/model/test"
+    },
+    {
+      "source": "models/seasonal_v1/lightgbm_server_inlet_temperature_c.joblib",
+      "bytes": 202935,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Unselected/obsolete fitted model or metadata; exact training recipes retained in training_config.json"
+    },
+    {
+      "source": "models/seasonal_v1/linearregression_cooling_load_kw.joblib",
+      "bytes": 8154,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Unselected/obsolete fitted model or metadata; exact training recipes retained in training_config.json"
+    },
+    {
+      "source": "models/seasonal_v1/linearregression_cooling_power_kw.joblib",
+      "bytes": 8154,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Unselected/obsolete fitted model or metadata; exact training recipes retained in training_config.json"
+    },
+    {
+      "source": "models/seasonal_v1/linearregression_hotspot_temperature_c.joblib",
+      "bytes": 8154,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Unselected/obsolete fitted model or metadata; exact training recipes retained in training_config.json"
+    },
+    {
+      "source": "models/seasonal_v1/linearregression_server_inlet_temperature_c.joblib",
+      "bytes": 8154,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Unselected/obsolete fitted model or metadata; exact training recipes retained in training_config.json"
+    },
+    {
+      "source": "models/seasonal_v1/randomforest_cooling_load_kw.joblib",
+      "bytes": 72034131,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Unselected/obsolete fitted model or metadata; exact training recipes retained in training_config.json"
+    },
+    {
+      "source": "models/seasonal_v1/randomforest_cooling_power_kw.joblib",
+      "bytes": 71202387,
+      "destination": "ml/models/artifacts/seasonal_v1/randomforest_cooling_power_kw.joblib",
+      "disposition": "moved",
+      "reason": "Required active source/data/model/test"
+    },
+    {
+      "source": "models/seasonal_v1/randomforest_hotspot_temperature_c.joblib",
+      "bytes": 71798835,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Unselected/obsolete fitted model or metadata; exact training recipes retained in training_config.json"
+    },
+    {
+      "source": "models/seasonal_v1/randomforest_server_inlet_temperature_c.joblib",
+      "bytes": 4385171,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Unselected/obsolete fitted model or metadata; exact training recipes retained in training_config.json"
+    },
+    {
+      "source": "models/seasonal_v1/xgboost_cooling_load_kw.joblib",
+      "bytes": 282251,
+      "destination": "ml/models/artifacts/seasonal_v1/xgboost_cooling_load_kw.joblib",
+      "disposition": "moved",
+      "reason": "Required active source/data/model/test"
+    },
+    {
+      "source": "models/seasonal_v1/xgboost_cooling_power_kw.joblib",
+      "bytes": 153383,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Unselected/obsolete fitted model or metadata; exact training recipes retained in training_config.json"
+    },
+    {
+      "source": "models/seasonal_v1/xgboost_hotspot_temperature_c.joblib",
+      "bytes": 276609,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Unselected/obsolete fitted model or metadata; exact training recipes retained in training_config.json"
+    },
+    {
+      "source": "models/seasonal_v1/xgboost_server_inlet_temperature_c.joblib",
+      "bytes": 274161,
+      "destination": "ml/models/artifacts/seasonal_v1/xgboost_server_inlet_temperature_c.joblib",
+      "disposition": "moved",
+      "reason": "Required active source/data/model/test"
+    },
+    {
+      "source": "data/original/research_ready_dataset.csv",
+      "bytes": 4206304,
+      "destination": "datasets/raw/cooling_observations.csv",
+      "disposition": "moved",
+      "reason": "Required active source/data/model/test"
+    },
+    {
+      "source": "data/original/test.csv",
+      "bytes": 639064,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Duplicate original split; all rows verified against retained raw observations"
+    },
+    {
+      "source": "data/original/train.csv",
+      "bytes": 2942866,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Duplicate original split; all rows verified against retained raw observations"
+    },
+    {
+      "source": "data/original/validation.csv",
+      "bytes": 626202,
+      "destination": null,
+      "disposition": "excluded",
+      "reason": "Duplicate original split; all rows verified against retained raw observations"
+    },
+    {
+      "source": "dashboard/static/app.js",
+      "bytes": 32211,
+      "destination": "frontend/static/app.js",
+      "disposition": "moved",
+      "reason": "Required active source/data/model/test"
+    },
+    {
+      "source": "dashboard/static/openapi.json",
+      "bytes": 68119,
+      "destination": "frontend/static/openapi.json",
+      "disposition": "moved",
+      "reason": "Required active source/data/model/test"
+    },
+    {
+      "source": "dashboard/static/styles.css",
+      "bytes": 15445,
+      "destination": "frontend/static/styles.css",
+      "disposition": "moved",
+      "reason": "Required active source/data/model/test"
+    },
+    {
+      "source": "dashboard/templates/docs.html",
+      "bytes": 3478,
+      "destination": "frontend/templates/docs.html",
+      "disposition": "moved",
+      "reason": "Required active source/data/model/test"
+    },
+    {
+      "source": "dashboard/templates/index.html",
+      "bytes": 7285,
+      "destination": "frontend/templates/index.html",
+      "disposition": "moved",
+      "reason": "Required active source/data/model/test"
+    }
+  ]
+}
